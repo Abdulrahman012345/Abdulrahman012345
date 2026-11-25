@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="22 5 1058 405" width="1058" height="405" role="img" aria-label="Abdul Rahman N - Full Stack Python Developer" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#31e4ec"/>
+      <stop offset="1" stop-color="#46f0a2"/>
+    </linearGradient>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f1622"/><stop offset="1" stop-color="#0f1622" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f1622" stop-opacity="0"/><stop offset="1" stop-color="#0f1622"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.9" fill="#0d1624"/>
+    </pattern>
+    <clipPath id="strip"><rect x="56" y="356" width="990" height="26" rx="8"/></clipPath>
+  </defs>
+
+  <!-- frame -->
+  <rect x="22" y="5" width="1058" height="405" rx="28" fill="#04070e" stroke="#1b2539" stroke-width="2"/>
+  <rect x="23" y="6" width="1056" height="403" rx="27" fill="url(#dots)"/>
+
+  <!-- top bar -->
+  <circle cx="51" cy="29" r="5" fill="#4bef9a"/>
+  <circle cx="71" cy="29" r="5" fill="#f6af58"/>
+  <circle cx="92" cy="29" r="5" fill="#30e3eb"/>
+  <text x="113" y="34" font-family="JetBrains Mono, Consolas, Menlo, monospace" font-size="12.5" letter-spacing="2" fill="#6b8bb3">ABDUL-01 // CONTROL PLANE — CHENNAI.IN</text>
+  <circle cx="514" cy="30" r="3.5" fill="#4bef9a">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="527" y="34" font-family="JetBrains Mono, Consolas, Menlo, monospace" font-size="12.5" letter-spacing="1.5" fill="#8fa8c8">ALL SYSTEMS NOMINAL</text>
+  <rect x="722" y="15" width="330" height="31" rx="7" fill="#07120f" stroke="#2a7c5e" stroke-width="1.5"/>
+  <text x="887" y="35" text-anchor="middle" font-family="JetBrains Mono, Consolas, Menlo, monospace" font-size="12.5" letter-spacing="1.5" fill="#58e2bd">STATUS: OPEN TO FULL-TIME ROLES</text>
+  <line x1="23" y1="54" x2="1079" y2="54" stroke="#0f1624"/>
+
+  <!-- left copy -->
+  <text x="50" y="143" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" fill="url(#name)">Abdul Rahman N</text>
+  <text x="51" y="185" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#eaf1ff">Full Stack Python Developer · Django &amp; React</text>
+  <text x="51" y="221" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16.5" fill="#9db0c9">Product engineering × applied AI — I turn ideas</text>
+  <text x="51" y="244" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16.5" fill="#9db0c9">into dependable web products.</text>
+  <rect x="303" y="230" width="9" height="18" rx="1" fill="#f6af58">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/>
+  </rect>
+  <g font-family="JetBrains Mono, Consolas, Menlo, monospace" font-size="13.5" fill="#6b8bb3">
+    <text x="50" y="299" fill="#6c92be">◆</text><text x="73" y="299">chennai, india</text>
+    <text x="283" y="299" fill="#6c92be">◆</text><text x="306" y="299">open to full-time roles</text>
+  </g>
+
+  <!-- connectors -->
+  <g fill="none" stroke="#2a3a55" stroke-width="1.4" stroke-dasharray="4 4">
+    <path id="pA" d="M760 120 H815 V181"/>
+    <path d="M914 143 H815"/>
+    <path id="pC" d="M783 234 V255 H684 V276"/>
+    <path d="M815 255 H861 V276"/>
+    <animate attributeName="stroke-dashoffset" values="0;-16" dur="1.2s" repeatCount="indefinite"/>
+  </g>
+  <!-- moving packets -->
+  <rect x="-1.5" y="-5" width="3" height="10" rx="1" fill="#30e3eb">
+    <animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#pA"/></animateMotion>
+  </rect>
+  <rect x="-1.5" y="-5" width="3" height="10" rx="1" fill="#30e3eb">
+    <animateMotion dur="2.8s" begin="0.8s" repeatCount="indefinite"><mpath href="#pC"/></animateMotion>
+  </rect>
+
+  <!-- cards -->
+  <g font-family="JetBrains Mono, Consolas, Menlo, monospace" text-anchor="middle">
+    <rect x="617" y="93" width="143" height="53" rx="7" fill="#0f1624" stroke="#1b2539"/>
+    <text x="688" y="116" font-size="14" font-weight="700" fill="#eaf1ff">node/ui</text>
+    <text x="688" y="134" font-size="12" fill="#6b8bb3">React.js</text>
+    <circle cx="748" cy="104" r="3" fill="#4bef9a"/>
+
+    <rect x="702" y="181" width="162" height="53" rx="7" fill="#0f1624" stroke="#1b2539"/>
+    <text x="783" y="204" font-size="14" font-weight="700" fill="#eaf1ff">svc/api</text>
+    <text x="783" y="222" font-size="12" fill="#6b8bb3">Python·Django</text>
+    <circle cx="846" cy="192" r="3" fill="#4bef9a"/>
+
+    <rect x="914" y="107" width="137" height="160" rx="9" fill="#0f1624" stroke="#1b2539"/>
+    <text x="983" y="134" font-size="14" font-weight="700" fill="#eaf1ff">ai/llm</text>
+    <text x="983" y="152" font-size="12" fill="#6b8bb3">Gemini·AI</text>
+    <circle cx="1039" cy="119" r="3" fill="#4bef9a"/>
+
+    <rect x="603" y="276" width="162" height="53" rx="7" fill="#0f1624" stroke="#1b2539"/>
+    <text x="684" y="299" font-size="14" font-weight="700" fill="#eaf1ff">db</text>
+    <text x="684" y="317" font-size="12" fill="#6b8bb3">MySQL·Mongo</text>
+    <circle cx="755" cy="287" r="3" fill="#4bef9a"/>
+
+    <rect x="797" y="276" width="128" height="53" rx="7" fill="#0f1624" stroke="#1b2539"/>
+    <text x="861" y="299" font-size="14" font-weight="700" fill="#eaf1ff">deploy</text>
+    <text x="861" y="317" font-size="12" fill="#6b8bb3">Render</text>
+    <circle cx="914" cy="287" r="3" fill="#4bef9a"/>
+  </g>
+
+  <!-- radar dial -->
+  <g transform="translate(983 215)">
+    <circle r="29" fill="#0a111c" stroke="#1b2539"/>
+    <circle r="20" fill="none" stroke="#14303a"/>
+    <circle r="10" fill="none" stroke="#14303a"/>
+    <g>
+      <path d="M0 0 L0 -20 A20 20 0 0 1 17.3 -10 Z" fill="#30e3eb" opacity="0.35"/>
+      <line x1="0" y1="0" x2="0" y2="-20" stroke="#30e3eb" stroke-width="1.6"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    </g>
+    <circle r="2.5" fill="#30e3eb"/>
+  </g>
+
+  <!-- tech strip (marquee) -->
+  <rect x="50" y="353" width="1002" height="32" rx="10" fill="#0f1622" stroke="#1b2539"/>
+  <g clip-path="url(#strip)">
+    <g>
+      <text x="64" y="374" font-family="JetBrains Mono, Consolas, Menlo, monospace" font-size="12.5" letter-spacing="2" fill="#6b8bb3" textLength="760" lengthAdjust="spacing">PYTHON · DJANGO · REACT · MYSQL · MONGODB · REST · GEMINI AI · GIT · RENDER ·</text>
+      <text x="824" y="374" font-family="JetBrains Mono, Consolas, Menlo, monospace" font-size="12.5" letter-spacing="2" fill="#6b8bb3" textLength="760" lengthAdjust="spacing">PYTHON · DJANGO · REACT · MYSQL · MONGODB · REST · GEMINI AI · GIT · RENDER ·</text>
+      <text x="1584" y="374" font-family="JetBrains Mono, Consolas, Menlo, monospace" font-size="12.5" letter-spacing="2" fill="#6b8bb3" textLength="760" lengthAdjust="spacing">PYTHON · DJANGO · REACT · MYSQL · MONGODB · REST · GEMINI AI · GIT · RENDER ·</text>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-760 0" dur="20s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <rect x="56" y="356" width="60" height="26" fill="url(#fadeL)"/>
+  <rect x="986" y="356" width="60" height="26" fill="url(#fadeR)"/>
+  <path d="M38 368 V392 H62" fill="none" stroke="#2a3a55" stroke-width="1.5"/>
+  <path d="M1064 368 V392 H1040" fill="none" stroke="#2a3a55" stroke-width="1.5"/>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpkZjIwZjgwZi01ZTgyLTRlNzUtOWE1MS04YzUwYzI4ZTE4NWUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaFEVrsvsth/A/kP8qDxM8ykAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoxZTAzY2YzMC1jNjI1LTRmY2EtOGIxZi1hMjE5YTBjYjU0OWRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoP7wQZV2qRX5tqh9fu11K4wAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgglN1f0mghCwImhPq7rRiQp5SnbGaYOxb6oy/ZNiiBclCkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaGfqBU086zZ6/xGgKrUQOakAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIBrjkkcZTnQUCOyNqcGZdMY2ewudAqlXSL+DYgiaruT0ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GR5FZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmRmMjBmODBmLTVlODItNGU3NS05YTUxLThjNTBjMjhlMTg1ZS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjRkYTAyM2ZkLTRmYjktNDI1ZC1hMjMxLTg1OWNmMzNjZDMyMnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCU3V/SaCELAiaE+rutGJCnlKdsZpg7FvqjL9k2KIFyUKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg7IyhzXb4gHyYG/G1n1wIMS4tn9l55fVlG+5n5a9EIDeiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggH//deId54ZgqnKOLM3zRmou3VPP2yrOTLn203VQrsul0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQImNXuUfJrpY+wnMctHQKvXTgs5JsYXhXqPps4PKGcyYQx/V6gm0P65WM28bXOAGP0gWtedhnLvNb/Vu+qV+4U0=</c2pa:manifest></metadata></svg>
